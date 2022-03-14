@@ -1,31 +1,31 @@
-// slowMath.add(1, 1).then(num => {
-//     console.log(num);
-//     return slowMath.multiply(num, 2);
-// }).then(num => {
-//     console.log(num);
-//     return slowMath.divide(num, 4);
-// }).then(num => {
-//     console.log(num);
-//     return slowMath.subtract(num, 3);
-// }).then(num => {
-//     console.log(num);
-//     return slowMath.add(num, 98);
-// }).then(num => {
-//     console.log(num);
-//     return slowMath.remainder(num, 2);
-// }).then(num => {
-//     console.log(num);
-//     return slowMath.multiply(num, 50);
-// }).then(num => {
-//     console.log(num);
-//     return slowMath.remainder(num, 40);
-// }).then(num => {
-//     console.log(num);
-//     return slowMath.add(num, 32);
-// }).then(num => {
-//     console.log(`The final result is ${num}.`)
-// }).catch(err => {
-//     console.log(err);
+// slowMath.add(1, 1).then(res => {
+//     console.log(res);
+//     return slowMath.multiply(res, 2);
+// }).then(res => {
+//     console.log(res);
+//     return slowMath.divide(res, 4);
+// }).then(res => {
+//     console.log(res);
+//     return slowMath.subtract(res, 3);
+// }).then(res => {
+//     console.log(res);
+//     return slowMath.add(res, 98);
+// }).then(res => {
+//     console.log(res);
+//     return slowMath.remainder(res, 2);
+// }).then(res => {
+//     console.log(res);
+//     return slowMath.multiply(res, 50);
+// }).then(res => {
+//     console.log(res);
+//     return slowMath.remainder(res, 40);
+// }).then(res => {
+//     console.log(res);
+//     return slowMath.add(res, 32);
+// }).then(res => {
+//     console.log(`The final result is ${res}.`)
+// }).catch(error => {
+//     console.log(error);
 // });
 
 let doMath = async function() {
