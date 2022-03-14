@@ -34,7 +34,8 @@
 
 let doMath = async function() {
     try {
-        let message 
+        let message; 
+         
         message = await slowMath.add(6, 2);
         console.log(message);
         message = await slowMath.multiply(message, 2);
