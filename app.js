@@ -1,3 +1,5 @@
+//Promise.then chaining
+
 // slowMath.add(1, 1).then(res => {
 //     console.log(res);
 //     return slowMath.multiply(res, 2);
@@ -27,6 +29,8 @@
 // }).catch(error => {
 //     console.log(error);
 // });
+
+// Async/await
 
 let doMath = async function() {
     try {
